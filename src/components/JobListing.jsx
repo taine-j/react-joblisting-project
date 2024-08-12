@@ -25,7 +25,7 @@ if (!showFullDescription){ //if show full description is false truncate the desc
               <button onClick= {()=> setShowFullDescription(!showFullDescription)}
               className="text-indigo-500 mb-5 hover:text-indigo-600">{ showFullDescription ? 'Less' : 'More'}</button> 
     
-              <h3 className="text-indigo-500 mb-2">{job.salary} / Year</h3>
+              <h3 className="text-indigo-500 mb-2">{job.salary} / Year</h3> 
     
               <div className="border border-gray-100 mb-5"></div>
     
@@ -35,7 +35,7 @@ if (!showFullDescription){ //if show full description is false truncate the desc
                   {job.location}
                 </div>
                 <Link
-                  to={`/job/${job.id}`}
+                  to={`/jobs/${job.id}`}
                   className="h-[36px] bg-indigo-500 hover:bg-indigo-600 text-white px-4 py-2 rounded-lg text-center text-sm"
                 >
                 Read More
