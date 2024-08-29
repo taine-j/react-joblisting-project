@@ -6,9 +6,6 @@ export default {
   ],
   theme: {
     extend: {
-      fontFamily: {
-        sans: ["Roboto"]
-      },
       gridTemplateColumns: {
         '70/30': '70% 28%',
       }
